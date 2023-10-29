@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zenith's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is ZenithSicarius's Portfolio">
+    <meta name="author" content="ZenithSicarius">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before
+		{
+			content: 'Zenith';
+		}
+	</style>
+</head>
+<body>
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">ZenithSicarius</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#achievements">Qualifications</a></li>
+				        <li><a href="#skills">Experience</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, you can call me Zenith</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I live in<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					I'm a gamer that loves playing games and programming. But when I couldn't find a game that just felt perfect, I decided that I'd need to help make that game, so I started learning how to program games. So that one day I may be able to help create a revolutionary game.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Qualifications</h1>
+			<ul class="award-list list-flat">
+				<li>December 2021</li>
+				<li>Finished Grade 12/High-School</li>
+				<li>Recieved a High-School Diploma</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>To Be Completed Middle Next Year</li>
+				<li>Higher Certificate in Game Design and Production by SAE Online</li>
+				<li>Game Development Course by School Of IT</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Experience</h1>
+			<ul class="skill-list list-flat">
+				<li>Script Writing</li>
+				<li>C#</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Game Engine</li>
+				<li>Unity</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Code Editors</li>
+				<li>Visual Studios / Notepad++</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>make a better place for noobs.</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>A Gamer making games for other Gamers</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:createzenith@gmail.com"><i class="fa fa-send"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		strings: ["South Africa", "a perpetual state of gaming", "cyberspace"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
